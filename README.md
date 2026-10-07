@@ -29,8 +29,6 @@
 - **Nguồn:** Hamsa Bastani, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı và Rei Mariman — *Generative AI without guardrails can harm learning: Evidence from high school mathematics* — PNAS 122(26), e2422633122, 25/06/2025; mục Abstract, mô tả thí nghiệm và Fig. 1. [DOI](https://doi.org/10.1073/pnas.2422633122) · [Abstract và hình trên PubMed](https://pubmed.ncbi.nlm.nih.gov/40560616/) · [Toàn văn trên PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/).
 - **Phân biệt bằng chứng và nhận định:** Nguồn xác nhận chênh lệch kết quả trong thí nghiệm. Tôi suy luận rằng giảm khả năng tự làm có thể ảnh hưởng cơ hội học tập; nguồn không chứng minh học sinh đã mất học bổng, trượt tốt nghiệp hoặc bị suy giảm năng lực lâu dài. Không khái quát kết quả sang mọi AI tutor.
 
-**Ghi chú nguồn:** Thông báo đính chính công bố ngày 20/08/2025 sửa đơn vị công tác của Osbert Bastani, không sửa kết quả nghiên cứu. [Thông báo trên PubMed](https://pubmed.ncbi.nlm.nih.gov/40833419/) · [Bản PDF của thông báo](https://pdfs.semanticscholar.org/4e8b/adc5aef00eef42a935570827ec170420106d.pdf).
-
 #### Harm Map Worksheet
 
 | Trường | Phân tích của tôi |
@@ -103,5 +101,3 @@
 | Probability | Tỷ lệ dương tính giả ở Brief Case cho thấy lỗi phân loại đáng kể trong mẫu. **Chưa đủ dữ liệu về xác suất bị phạt oan**, vì hậu quả còn phụ thuộc chính sách, human review và khả năng giải trình. Không sử dụng tỷ lệ lỗi này như xác suất áp dụng cho mọi sinh viên. |
 | Frequency | Lỗi lặp lại trên tập bài thử nghiệm, không chỉ là một đầu ra sai đơn lẻ. **Chưa đủ dữ liệu về tần suất theo ngày, tháng hoặc học kỳ** khi triển khai tại trường. |
 | Vì sao? | Tôi chọn Bias / fairness vì kết quả cho thấy chênh lệch đáng lo ngại giữa các nhóm văn bản. Tuy nhiên, các tập bài còn khác nhau về bối cảnh và dạng bài, nên không quy mọi chênh lệch duy nhất cho tiếng mẹ đẻ. Severity đánh giá hậu quả của tình huống xử phạt giả định; Scale, Probability và Frequency giữ đúng giới hạn bằng chứng. Biện pháp tôi đề xuất là dùng detector như tín hiệu để kiểm tra thêm, kết hợp bản nháp, lịch sử chỉnh sửa và giải trình; quyết định xử lý cần người có thẩm quyền xem xét. |
-
-**Tình trạng báo cáo:** Đã có Industry Risk Snapshot, ba Brief Case cùng ngành và ba Harm Map đủ 11 trường. Bản báo cáo này chưa xác nhận việc tạo repo, commit trên GitHub hoặc nộp trên AI Codelabs.
